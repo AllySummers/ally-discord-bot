@@ -1,0 +1,9 @@
+{
+  "extends": "@tsconfig/node24",
+  "compilerOptions": {
+    "noEmit": true,
+    "allowImportingTsExtensions": true
+  },
+  "files": ["./eslint.config.mjs", "./prettier.config.mjs"],
+  "include": ["./src/**/*.ts"]
+}

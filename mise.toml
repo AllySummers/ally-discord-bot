@@ -1,0 +1,9 @@
+[tools]
+node = "latest"
+
+[tools.pnpm]
+version = "latest"
+os = ["macos", "linux"]
+[tools."npm:pnpm"]
+version = "latest"
+os = ["windows"]
